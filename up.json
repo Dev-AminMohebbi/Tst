@@ -1,65 +1,53 @@
 {
-  "dialogTitle": "آپدیت مهم در دسترس است",
-  "dialogSubtitle": "نسخه جدید شامل ویژگی‌های خفن و رفع مشکلات است.",
-  "dialogOption": "custom",
-  "alertOption": "sheet",
-  "newVersion": "3.0.0",
-  "isOneTime": "true",
-  "isOneTimeKey": "update_v3",
-  "isCancelable": "false",
-
-  "style": {
-    "customDialogAccent": "#FF5722",
-    "customDialogBack": "#121212",
-    "customDialogRound": "40",
-    "customDialogMainTxtColor": "#FFFFFF",
-    "customDialogBtnTxtColor": "#FFFFFF",
-    "shadowColor": "#66000000",
-    "rippleColor": "#33FFFFFF",
-    "titleSize": "18",
-    "subtitleSize": "14",
-    "cornerRadius": "30",
-    "elevation": "8"
+  "versionControl": {
+    "latestVersion": "2.1",
+    "isMandatory": false,
+    "isOneTime": true,
+    "oneTimeKey": "summer_sale_promo_2025"
   },
-
-  "fonts": {
-    "titleFont": "roboto_bold.ttf",
-    "subtitleFont": "roboto_regular.ttf",
-    "buttonFont": "vazir_medium.ttf"
+  "config": {
+    "dialogType": "dialog",
+    "fontName": "Vazir.ttf"
   },
-
-  "image": {
-    "url": "https://example.com/assets/update_banner.png",
-    "size": "120",
-    "tint": "#FFFFFF",
-    "animation": "bounce"
-  },
-
-  "buttons": [
-    {
-      "text": "به‌روزرسانی کن",
-      "click": "browser",
-      "link": "https://example.com/download/app.apk",
-      "color": "#FF5722",
-      "textColor": "#FFFFFF"
+  "content": {
+    "style": {
+      "backgroundColor": "#FFFFFF",
+      "accentColor": "#8E44AD",
+      "cornerRadius": 80
     },
-    {
-      "text": "خروج",
-      "click": "exit",
-      "color": "#444444",
-      "textColor": "#FFFFFF"
+    "icon": {
+      "url": "https://i.ibb.co/XYZ/your_icon.png",
+      "backgroundColor": "#8E44AD",
+      "tintColor": "#FFFFFF",
+      "size": 90
     },
-    {
-      "text": "یادآوری بعدی",
-      "click": "dismiss",
-      "color": "#222222",
-      "textColor": "#AAAAAA"
+    "title": {
+      "text": "یک پیشنهاد شگفت‌انگیز!",
+      "textColor": "#333333",
+      "textSize": 18,
+      "isBold": true
+    },
+    "subtitle": {
+      "text": "تا ۴۰٪ تخفیف روی تمامی محصولات فروشگاه. این فرصت طلایی را از دست ندهید!",
+      "textColor": "#555555",
+      "textSize": 14,
+      "isBold": false
     }
-  ],
-
-  "animations": {
-    "dialogAnimation": "fade_in",
-    "buttonAnimation": "scale",
-    "titleAnimation": "slide_top"
+  },
+  "actions": {
+    "buttons": [
+      {
+        "text": "مشاهده فروشگاه",
+        "style": "filled",
+        "action": "browser",
+        "link": "https://your-shop-link.com"
+      },
+      {
+        "text": "بعداً",
+        "style": "outline",
+        "action": "dismiss",
+        "link": ""
+      }
+    ]
   }
 }
