@@ -15,7 +15,7 @@
   "dialogBtnExtra": "true",
   "dialogBtnExtraClick": "browser",
   "openLinkExtra": "https://example.com/release-notes",
-  "isCancelable": "true",
+  "isCancelable": "false",
   "dialogBtnMain": "true",
   "dialogBtnMainClick": "browser",
   "openLinkMain": "https://example.com/download/latest.apk",
