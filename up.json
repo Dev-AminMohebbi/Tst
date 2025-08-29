@@ -1,10 +1,10 @@
 {
   "Visibility": "VISIBLE",
-  "Title": "Test",
-  "Description": "Test Message",
-  "MainTextButton": "Update",
-  "Cancelable": "true",
-  "CancelButtonText": "Cancel",
+  "Title": "نسخه جدید",
+  "Description": "اضافه شدن رابط کاربری جدیدتر\nاضافه شدن مانگا های جدیدتر",
+  "MainTextButton": "بروزرسانی",
+  "Cancelable": "false",
+  "CancelButtonText": "بعدا",
   "DownloadLink": "www.example.com",
   "Version": "1.1"
 }
