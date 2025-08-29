@@ -1,53 +1,10 @@
 {
-  "versionControl": {
-    "latestVersion": "2.1",
-    "isMandatory": false,
-    "isOneTime": true,
-    "oneTimeKey": "summer_sale_promo_2025"
-  },
-  "config": {
-    "dialogType": "dialog",
-    "fontName": "Vazir.ttf"
-  },
-  "content": {
-    "style": {
-      "backgroundColor": "#FFFFFF",
-      "accentColor": "#8E44AD",
-      "cornerRadius": 80
-    },
-    "icon": {
-      "url": "https://i.ibb.co/XYZ/your_icon.png",
-      "backgroundColor": "#8E44AD",
-      "tintColor": "#FFFFFF",
-      "size": 90
-    },
-    "title": {
-      "text": "یک پیشنهاد شگفت‌انگیز!",
-      "textColor": "#333333",
-      "textSize": 18,
-      "isBold": true
-    },
-    "subtitle": {
-      "text": "تا ۴۰٪ تخفیف روی تمامی محصولات فروشگاه. این فرصت طلایی را از دست ندهید!",
-      "textColor": "#555555",
-      "textSize": 14,
-      "isBold": false
-    }
-  },
-  "actions": {
-    "buttons": [
-      {
-        "text": "مشاهده فروشگاه",
-        "style": "filled",
-        "action": "browser",
-        "link": "https://your-shop-link.com"
-      },
-      {
-        "text": "بعداً",
-        "style": "outline",
-        "action": "dismiss",
-        "link": ""
-      }
-    ]
-  }
+  "Visibility": "VISIBLE",
+  "Title": "Test",
+  "Description": "Test Message",
+  "MainTextButton": "Update",
+  "Cancelable": "true",
+  "CancelButtonText": "Cancel",
+  "DownloadLink": "www.example.com",
+  "Version": "1.1"
 }
