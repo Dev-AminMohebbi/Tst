@@ -1,25 +1,65 @@
 {
-  "dialogTitle": "به‌روزرسانی جدید آماده است",
-  "dialogSubtitle": "نسخهٔ جدید شامل بهبود عملکرد، رفع باگ‌ها و امکانات جدید است.",
-  "dialogBtnExtraTxt": "یادآوری بعدی",
-  "dialogBtnMainTxt": "همین حالا به‌روزرسانی کن",
+  "dialogTitle": "آپدیت مهم در دسترس است",
+  "dialogSubtitle": "نسخه جدید شامل ویژگی‌های خفن و رفع مشکلات است.",
   "dialogOption": "custom",
-  "customDialogAccent": "#FF6B00",
-  "customDialogBack": "#FFFFFF",
-  "customDialogRound": "60",
-  "customDialogMainTxtColor": "#212121",
-  "customDialogBtnTxtColor": "#FFFFFF",
-  "customDialogIcon": "https://example.com/assets/updatify_icon.png",
-  "alertOption": "dialog",
-  "dialogFont": "null",
-  "dialogBtnExtra": "true",
-  "dialogBtnExtraClick": "browser",
-  "openLinkExtra": "https://example.com/release-notes",
+  "alertOption": "sheet",
+  "newVersion": "3.0.0",
+  "isOneTime": "true",
+  "isOneTimeKey": "update_v3",
   "isCancelable": "false",
-  "dialogBtnMain": "true",
-  "dialogBtnMainClick": "browser",
-  "openLinkMain": "https://example.com/download/latest.apk",
-  "newVersion": "2.5.0",
-  "isOneTime": "false",
-  "isOneTimeKey": "updatify_2_5_0"
+
+  "style": {
+    "customDialogAccent": "#FF5722",
+    "customDialogBack": "#121212",
+    "customDialogRound": "40",
+    "customDialogMainTxtColor": "#FFFFFF",
+    "customDialogBtnTxtColor": "#FFFFFF",
+    "shadowColor": "#66000000",
+    "rippleColor": "#33FFFFFF",
+    "titleSize": "18",
+    "subtitleSize": "14",
+    "cornerRadius": "30",
+    "elevation": "8"
+  },
+
+  "fonts": {
+    "titleFont": "roboto_bold.ttf",
+    "subtitleFont": "roboto_regular.ttf",
+    "buttonFont": "vazir_medium.ttf"
+  },
+
+  "image": {
+    "url": "https://example.com/assets/update_banner.png",
+    "size": "120",
+    "tint": "#FFFFFF",
+    "animation": "bounce"
+  },
+
+  "buttons": [
+    {
+      "text": "به‌روزرسانی کن",
+      "click": "browser",
+      "link": "https://example.com/download/app.apk",
+      "color": "#FF5722",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "text": "خروج",
+      "click": "exit",
+      "color": "#444444",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "text": "یادآوری بعدی",
+      "click": "dismiss",
+      "color": "#222222",
+      "textColor": "#AAAAAA"
+    }
+  ],
+
+  "animations": {
+    "dialogAnimation": "fade_in",
+    "buttonAnimation": "scale",
+    "titleAnimation": "slide_top"
+  }
 }
